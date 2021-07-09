@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/action"
+    tools:context=".Workoutclass">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/titt"
+        android:text="Do it Daily!"
+        android:textSize="44dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/backlash"
+        android:textColor="@color/black"
+        android:gravity="center">
+
+    </TextView>
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="horizontal"
+        android:layout_centerInParent="true"
+        android:layout_height="350dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_below="@id/titt"
+            android:layout_height="match_parent">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                app:cardCornerRadius="30dp"
+                android:layout_marginLeft="9dp"
+                android:id="@+id/pushups"
+                android:layout_marginRight="9dp"
+                app:cardElevation="20dp"
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Pushups x20"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/pump"
+                    android:textColor="@color/black"
+                    android:textSize="34dp">
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                app:cardCornerRadius="30dp"
+                android:layout_marginLeft="9dp"
+                android:id="@+id/crunches"
+                android:layout_marginRight="9dp"
+                app:cardElevation="20dp"
+                android:layout_below="@id/pushups"
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Crunches"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/pump"
+                    android:textColor="@color/black"
+                    android:textSize="34dp">
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                app:cardCornerRadius="30dp"
+                android:layout_marginLeft="9dp"
+                android:id="@+id/situps"
+                android:layout_marginRight="9dp"
+                app:cardElevation="20dp"
+                android:layout_below="@id/crunches"
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Situps"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/pump"
+                    android:textColor="@color/black"
+                    android:textSize="34dp">
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                app:cardCornerRadius="30dp"
+                android:layout_marginLeft="9dp"
+                android:id="@+id/plank"
+                android:layout_marginRight="9dp"
+                app:cardElevation="20dp"
+                android:layout_below="@id/situps"
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Planks x20"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/pump"
+                    android:textColor="@color/black"
+                    android:textSize="34dp">
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                app:cardCornerRadius="30dp"
+                android:layout_marginLeft="9dp"
+                android:id="@+id/squat"
+                android:layout_marginRight="9dp"
+                app:cardElevation="20dp"
+                android:layout_below="@id/plank"
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Jumping squats x20"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/pump"
+                    android:textColor="@color/black"
+                    android:textSize="34dp">
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                app:cardCornerRadius="30dp"
+                android:layout_marginLeft="9dp"
+                android:id="@+id/jumpjack"
+                android:layout_marginRight="9dp"
+                app:cardElevation="20dp"
+                android:layout_below="@id/squat"
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Jumping jacks x20"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/pump"
+                    android:textColor="@color/black"
+                    android:textSize="34dp">
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

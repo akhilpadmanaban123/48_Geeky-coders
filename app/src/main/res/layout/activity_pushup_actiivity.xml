@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/action"
+    tools:context=".Pushup_actiivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/lot1"
+        android:layout_marginTop="60dp"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/pushup1"
+        app:lottie_loop="true">
+    </com.airbnb.lottie.LottieAnimationView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:text="Get down on all fours, placing your hands slightly wider than your shoulders.
+Straighten your arms and legs.
+Lower your body until your chest nearly touches the floor.
+Pause, then push yourself back up.
+Repeat."
+        android:textSize="26dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:layout_below="@id/lot1"
+        android:gravity="center_horizontal">
+
+    </TextView>
+
+
+</RelativeLayout>
