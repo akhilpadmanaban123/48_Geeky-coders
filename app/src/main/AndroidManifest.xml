@@ -9,7 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HEALTHAPP">
-        <activity android:name=".MainHomeActivity"></activity>
+        <activity android:name=".Squat_activity"></activity>
+        <activity android:name=".Crunches_activity" />
+        <activity android:name=".Plank_activity" />
+        <activity android:name=".Situp_activity" />
+        <activity android:name=".Pushup_actiivity" />
+        <activity android:name=".Workoutclass" />
+        <activity android:name=".MainExercisePage" />
+        <activity android:name=".MainHomeActivity" />
         <activity android:name=".refreshment_page" />
         <activity android:name=".Sleep1" />
         <activity android:name=".Email1" />
