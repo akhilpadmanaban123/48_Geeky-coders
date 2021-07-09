@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HEALTHAPP">
-        <activity android:name=".Squat_activity"></activity>
+        <activity android:name=".Jumpindjack_activity"></activity>
+        <activity android:name=".Squat_activity" />
         <activity android:name=".Crunches_activity" />
         <activity android:name=".Plank_activity" />
         <activity android:name=".Situp_activity" />

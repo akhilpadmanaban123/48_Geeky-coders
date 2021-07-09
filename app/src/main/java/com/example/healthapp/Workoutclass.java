@@ -9,7 +9,7 @@ import android.view.View;
 
 public class Workoutclass extends AppCompatActivity implements View.OnClickListener {
 
-    CardView pushup,situp,crunch,planks,squats;
+    CardView pushup,situp,crunch,planks,squats,jumpingjack;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,6 +30,9 @@ public class Workoutclass extends AppCompatActivity implements View.OnClickListe
 
         squats=findViewById(R.id.squat);
         squats.setOnClickListener(this);
+
+        jumpingjack=findViewById(R.id.jumpjack);
+        jumpingjack.setOnClickListener(this);
     }
 
     @Override
@@ -54,6 +57,9 @@ public class Workoutclass extends AppCompatActivity implements View.OnClickListe
                 startActivity(new Intent(Workoutclass.this,Squat_activity.class));
                 break;
 
+            case R.id.jumpjack:
+                startActivity(new Intent(Workoutclass.this,Jumpindjack_activity.class));
+                break;
         }
     }
 }
