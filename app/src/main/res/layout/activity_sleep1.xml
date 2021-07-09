@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    tools:context=".Sleep1">
+
+    <RelativeLayout
+        android:layout_width="360dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/identify"
+        android:layout_marginTop="110dp"
+        android:layout_height="90dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:text="How many hours do you sleep generally?"
+            android:textSize="34dp"
+            android:id="@+id/ide"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-medium">
+        </TextView>
+
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="50dp"
+        android:layout_below="@id/identify"
+        app:cardElevation="20dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/five"
+        app:cardCornerRadius="30dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="5 hours"
+            android:gravity="center"
+            android:id="@+id/hour_5"
+            android:fontFamily="@font/pump"
+            android:textSize="28dp"
+            android:textColor="@color/black"
+            android:background="@drawable/smallbox">
+        </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="50dp"
+        android:layout_below="@id/five"
+        app:cardElevation="20dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/six"
+        app:cardCornerRadius="30dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="6 hours"
+            android:gravity="center"
+            android:id="@+id/hour_6"
+            android:fontFamily="@font/pump"
+            android:textSize="28dp"
+            android:textColor="@color/black"
+            android:background="@drawable/smallbox">
+        </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="50dp"
+        android:layout_below="@id/six"
+        app:cardElevation="20dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/seven"
+        app:cardCornerRadius="30dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="7 hours"
+            android:gravity="center"
+            android:id="@+id/hour_7"
+            android:fontFamily="@font/pump"
+            android:textSize="28dp"
+            android:textColor="@color/black"
+            android:background="@drawable/smallbox">
+        </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="50dp"
+        android:layout_below="@id/seven"
+        app:cardElevation="20dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/eight"
+        app:cardCornerRadius="30dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="8 hours"
+            android:gravity="center"
+            android:id="@+id/hour_8"
+            android:fontFamily="@font/pump"
+            android:textSize="28dp"
+            android:textColor="@color/black"
+            android:background="@drawable/smallbox">
+        </TextView>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="50dp"
+        android:layout_below="@id/eight"
+        app:cardElevation="20dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/nine"
+        app:cardCornerRadius="30dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="9 hours"
+            android:gravity="center"
+            android:id="@+id/hour_9"
+            android:fontFamily="@font/pump"
+            android:textSize="28dp"
+            android:textColor="@color/black"
+            android:background="@drawable/smallbox">
+        </TextView>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fab"
+    tools:context=".Page_1">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:id="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_height="130dp">
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="75dp"
+            android:id="@+id/welcome"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/lightsans"
+            android:textStyle="bold"
+            android:text="What makes your life more awesome?"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentLeft="true">
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:lottie_rawRes="@raw/heart2"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true">
+        </com.airbnb.lottie.LottieAnimationView>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="330dp"
+        android:layout_height="420dp"
+        android:layout_marginTop="90dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/title">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:cardElevation="20dp"
+            android:layout_marginTop="40dp"
+            android:id="@+id/one"
+            app:cardCornerRadius="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Mental Health"
+                android:gravity="center"
+                android:id="@+id/mental"
+                android:fontFamily="@font/pump"
+                android:textSize="28dp"
+                android:textColor="@color/black"
+                android:background="@drawable/smallbox">
+
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:cardElevation="20dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/two"
+            android:layout_below="@id/one"
+            app:cardCornerRadius="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Physical Health"
+                android:gravity="center"
+                android:fontFamily="@font/pump"
+                android:id="@+id/physical"
+                android:textSize="28dp"
+                android:textColor="@color/black"
+                android:background="@drawable/smallbox2">
+
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:cardElevation="20dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/three"
+            android:layout_below="@id/two"
+            app:cardCornerRadius="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Addiction"
+                android:id="@+id/addiction"
+                android:gravity="center"
+                android:fontFamily="@font/pump"
+                android:textSize="28dp"
+                android:textColor="@color/black"
+                android:background="@drawable/smallbox3">
+
+            </TextView>
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
